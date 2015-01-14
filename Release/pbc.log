@@ -1,0 +1,41 @@
+﻿生成启动时间为 2013/12/23 16:48:56。
+     1>项目“D:\skillTool\xgame\player\pbc-master\pbc.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I. /I.\pbc /I.\pbc\src /I"D:\skillTool\xgame\\lib\cocos2d-x\scripting\lua\lua_extensions" /I"D:\skillTool\xgame\\lib\cocos2d-x\scripting\lua\luajit\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /D WIN32 /D _LIB /D NDEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /wd4146 /wd4273 /wd4244 /wd4018 /analyze- /errorReport:prompt "binding\lua\pbc-lua.c" src\alloc.c src\array.c src\bootstrap.c src\context.c src\decode.c src\map.c src\pattern.c src\proto.c src\register.c src\rmessage.c src\stringpool.c src\varint.c src\wmessage.c
+         pbc-lua.c
+     1>binding\lua\pbc-lua.c(788): warning C4101: “b”: 未引用的局部变量
+         alloc.c
+         array.c
+         bootstrap.c
+         context.c
+         decode.c
+         map.c
+         pattern.c
+         proto.c
+         register.c
+         rmessage.c
+         stringpool.c
+         varint.c
+         wmessage.c
+         正在生成代码...
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"D:\skillTool\xgame\player\proj.win32\Release\pbc.lib" /NOLOGO "Release\pbc-lua.obj"
+         Release\alloc.obj
+         Release\array.obj
+         Release\bootstrap.obj
+         Release\context.obj
+         Release\decode.obj
+         Release\map.obj
+         Release\pattern.obj
+         Release\proto.obj
+         Release\register.obj
+         Release\rmessage.obj
+         Release\stringpool.obj
+         Release\varint.obj
+         Release\wmessage.obj
+         pbc.vcxproj -> D:\skillTool\xgame\player\proj.win32\Release\pbc.lib
+     1>已完成生成项目“D:\skillTool\xgame\player\pbc-master\pbc.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.90
